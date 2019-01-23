@@ -34,16 +34,18 @@
 		<div data-loader="circle-side"></div>
 	</div>
 	<!-- End Preload -->
-	
+	{{ import "bootstrap/wtf.html" as wtf }}
 	<div id="login">
 		<aside>
 			<figure>
 				<a href="index.html"><img src="img/logo_sticky.png" width="155" height="36" data-retina="true" alt="" class="logo_sticky"></a>
 			</figure>
-			<form autocomplete="off">
+			<form autocomplete="off" method="post">
+                {{ form.hidden_tag() }}
 				<div class="form-group">
-					<label>Your Name</label>
-					<input class="form-control" type="text">
+					<label>登录名</label>
+
+                    {{ form.username.label }}{{ form.username(class="form-control") }}
 					<i class="ti-user"></i>
 				</div>
 				<div class="form-group">
@@ -73,6 +75,7 @@
 			<div class="copy">© 2018 Panagea</div>
 		</aside>
 	</div>
+    {{ wtf.quick_form(form) }}
 	<!-- /login -->
 	
 	<!-- COMMON SCRIPTS -->
