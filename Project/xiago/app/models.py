@@ -22,26 +22,26 @@ class User(db.Model):
     if_online = db.Column(db.Boolean, default=0)
     last_login_ip = db.Column(db.String(200))
     last_login_time = db.Column(db.Time)
-    user_class_id = db.Column(db.Integer, db.ForeignKey('user_class.id'))
-    address = db.relationship("order_form",backref="User")
-    address1 = db.relationship("estimate", backref="User")
-    address2 = db.relationship("shopping_car", backref="User")
-    address3 = db.relationship("take_information", backref="User")
+    user_class_id = db.Column(db.Integer, db.ForeignKey('user_class.uc_id'))
+    address = db.relationship("Order_form",backref="User")
+    address1 = db.relationship("Estimate", backref="User")
+    address2 = db.relationship("Shopping_car", backref="User")
+    address3 = db.relationship("Take_information", backref="User")
 
     def __repr__(self):
         return self.user_name
 # 等级表
-class user_class(db.Model):
+class User_class(db.Model):
     __tablename__ = "user_class"
     uc_id = db.Column(db.Integer, primary_key=True)
     uc_svip = db.Column(db.Integer)
     uc_vip = db.Column(db.Integer)
     uc_nvip = db.Column(db.Integer)
     address1 = db.relationship("User", backref="user_class")
-    address2 = db.relationship("impower", backref="user_class")
+    address2 = db.relationship("Impower", backref="user_class")
 
 # 公司表
-class company_information(db.Model):
+class Company_information(db.Model):
     __tablename__ = "company_information"
     cpy_id = db.Column(db.Integer, primary_key=True)
     cpy_num = db.Column(db.Integer, nullable=False)
@@ -51,39 +51,39 @@ class company_information(db.Model):
 
 
 # 部门表
-class department_information(db.Model):
+class Department_information(db.Model):
     __tablename__ = "department_information"
     dt_id = db.Column(db.Integer, primary_key=True)
     dt_num = db.Column(db.Integer, nullable=False)
     dt_name = db.Column(db.String(200), nullable=False)
-    dt_cpy_id = db.Column(db.Integer, db.ForeignKey('company_information.id'))
-    address1 = db.relationship("staff_information", backref="department_information")
+    dt_cpy_id = db.Column(db.Integer, db.ForeignKey('company_information.cpy_id'))
+    address1 = db.relationship("staff_information", backref="Department_information")
 
 
 # 员工表
-class staff_information(db.Model):
+class Staff_information(db.Model):
     __tablename__ = "staff_information"
     st_id = db.Column(db.Integer, primary_key=True)
     st_num = db.Column(db.Integer, nullable=False)
     st_name = db.Column(db.String(200), nullable=False)
     st_position = db.Column(db.String(200), nullable=False)
-    st_cpy_id = db.Column(db.Integer, db.ForeignKey('company_information.id'))
-    st_dt_id = db.Column(db.Integer, db.ForeignKey('department_information.id'))
+    st_cpy_id = db.Column(db.Integer, db.ForeignKey('company_information.cpy_id'))
+    st_dt_id = db.Column(db.Integer, db.ForeignKey('department_information.dt_id'))
 
 
 
 #权限表
-class impower(db.Model):
+class Impower(db.Model):
     __tablename__ = "impower"
     im_id = db.Column(db.Integer, primary_key=True)
     im_num = db.Column(db.Integer, nullable=False)
     im_information = db.Column(db.String(500), nullable=False)
-    im_class_id = db.Column(db.Integer, db.ForeignKey('user_class.id'))
+    im_class_id = db.Column(db.Integer, db.ForeignKey('user_class.uc_id'))
 
 
 
 # 商品表
-class commodity(db.Model):
+class Commodity(db.Model):
     __tablename__ = "commodity"
     co_id = db.Column(db.Integer, primary_key=True)
     co_name = db.Column(db.String(200), nullable=False)
@@ -91,62 +91,62 @@ class commodity(db.Model):
     co_old_price = db.Column(db.Float(50), nullable=False)
     co_img = db.Column(db.String(200), nullable=False)
     co_information = db.Column(db.String(500), nullable=False)
-    address1 = db.relationship("estimate", backref="commodity")
-    address2 = db.relationship("order_form", backref="commodity")
-    address3 = db.relationship("shopping_car", backref="commodity")
-    address4 = db.relationship("back_to_buy", backref="commodity")
+    address1 = db.relationship("Estimate", backref="commodity")
+    address2 = db.relationship("Order_form", backref="commodity", uselist=False)
+    address3 = db.relationship("Shopping_car", backref="commodity", uselist=False)
+    address4 = db.relationship("Back_to_buy", backref="commodity", uselist=False)
 
 
 
 # 评价表
-class estimate(db.Model):
+class Estimate(db.Model):
     __tablename__ = "estimate"
     est_id = db.Column(db.Integer, primary_key=True)
     est_text = db.Column(db.Text, nullable= False)
     est_img = db.Column(db.String(200), nullable=True)
     est_class = db.Column(db.Integer, nullable=False)
-    est_user_id = db.Column(db.Integer, db.ForeignKey('User.id'))
-    est_co_id = db.Column(db.Integer, db.ForeignKey('commodity.id'))
+    est_user_id = db.Column(db.Integer, db.ForeignKey('users.user_id'))
+    est_co_id = db.Column(db.Integer, db.ForeignKey('commodity.co_id'))
 
 
 
 # 订单表
-class order_form(db.Model):
+class Order_form(db.Model):
     __tablename__ = "order_form"
     of_id = db.Column(db.Integer, primary_key=True)
     of_co_num = db.Column(db.Integer, nullable=False)
-    of_co_infor = db.Column(db.Integer, db.ForeignKey('commodity.id'))
-    of_user_id = db.Column(db.Integer, db.ForeignKey('User.id'))
-    of_ta_id = db.Column(db.Integer, db.ForeignKey('take_information.id'))
+    of_co_infor = db.Column(db.Integer, db.ForeignKey('commodity.co_id'))
+    of_user_id = db.Column(db.Integer, db.ForeignKey('users.user_id'))
+    of_ta_id = db.Column(db.Integer, db.ForeignKey('take_information.ta_id'))
 
 
 
 # 购物车
-class shopping_car(db.Model):
+class Shopping_car(db.Model):
     __tablename__ = "shopping"
     s_car_id = db.Column(db.Integer, primary_key=True)
     of_co_name = db.Column(db.Integer, nullable=False)
-    s_car_infor_id = db.Column(db.Integer, db.ForeignKey('commodity.id'))
-    s_car_user_id = db.Column(db.Integer, db.ForeignKey('User.id'))
+    s_car_infor_id = db.Column(db.Integer, db.ForeignKey('commodity.co_id'))
+    s_car_user_id = db.Column(db.Integer, db.ForeignKey('users.user_id'))
 
 
 
 
 # 退购表
-class back_to_buy(db.Model):
+class Back_to_buy(db.Model):
     __tablename__ = "back_to_buy"
     btb_id = db.Column(db.Integer, primary_key=True)
     btb_text = db.Column(db.Text, nullable= False)
-    btb_co_infor_id = db.Column(db.Integer, db.ForeignKey('commodity.id'))
+    btb_co_infor_id = db.Column(db.Integer, db.ForeignKey('commodity.co_id'))
 
 
 
 # 收货表
-class take_information(db.Model):
+class Take_information(db.Model):
     __tablename__ = "take_information"
     ta_id = db.Column(db.Integer, primary_key=True)
     ta_name = db.Column(db.String(50), nullable=False)
     ta_address = db.Column(db.String(200), nullable=False)
     ta_tel = db.Column(db.String(11), nullable=False)
-    ta_user_id = db.Column(db.Integer, db.ForeignKey('User.id'))
+    ta_user_id = db.Column(db.Integer, db.ForeignKey('users.user_id'))
     address1 = db.relationship("order_form", backref="take_information")
