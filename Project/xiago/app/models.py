@@ -1,5 +1,6 @@
 from app import db
 
+
 class Permission:
     FOLLOW = 1
     COMMENT = 2
@@ -27,7 +28,8 @@ class User(db.Model):
     address2 = db.relationship("shopping_car", backref="User")
     address3 = db.relationship("take_information", backref="User")
 
-
+    def __repr__(self):
+        return self.user_name
 # 等级表
 class user_class(db.Model):
     __tablename__ = "user_class"
