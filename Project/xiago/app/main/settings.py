@@ -1,10 +1,10 @@
 
 def get_db_uri(db_dict):
-    host = db_dict.get("HOST",'localhost')
-    port = db_dict.get("PORT",3306)
-    user = db_dict.get("USER",'root')
-    password = db_dict.get("PASSWORD",'123456')
-    dbname = db_dict.get("DBNAME", 'defaultdb')
+    host = db_dict.get("HOST", 'localhost')
+    port = db_dict.get("PORT", 3306)
+    user = db_dict.get("USER", 'root')
+    password = db_dict.get("PASSWORD", '123456')
+    dbname = db_dict.get("DBNAME", 'xiago')
     dbtype = db_dict.get("DBTYPE", 'mysql')
     driver = db_dict.get("DRIVER", 'pymysql')
     return '{}+{}://{}:{}@{}:{}/{}?charset=utf8'.format(dbtype,driver,user,password,host,port,dbname)

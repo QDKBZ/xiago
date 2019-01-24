@@ -11,7 +11,7 @@ class RegisterForm(FlaskForm):
     tel = StringField("电话：", validators=[DataRequired('请输入手机号')])
     sex = BooleanField("性别", {'男': 1, '女': 0})
     birthday = DateField("生日：")
-    email = StringField("邮箱：", validators.Email())
+    email = StringField("邮箱：")
 
 
 

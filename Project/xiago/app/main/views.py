@@ -3,7 +3,7 @@ from flask import render_template, session, redirect, url_for, flash
 from flask import request
 from . import main
 from .forms import RegisterForm
-from ..models import User
+from .. import models
 
 
 
@@ -12,7 +12,7 @@ def index():
     pass
 
 
-@main.route('/register', methods=['GET', 'POST'])
+@main.route('/register/', methods=['GET', 'POST'])
 def register_wtf():
     # 表单类实例化，渲染模板--在页面上显示表单
     form = RegisterForm()
@@ -36,5 +36,13 @@ def register_wtf():
         else:
             # 消息闪现，渲染模板
             flash('参数错误')
+    else:
+        return redirect(url_for('register_wtf'))
+    return render_template('register.html'), 404
 
-    return render_template('register.html', form=form,)
+
+#登录
+@main.route('/login/', methods=['GET', 'POST'])
+def login():
+
+    return render_template('logintest.html')
