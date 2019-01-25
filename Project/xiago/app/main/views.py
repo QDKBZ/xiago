@@ -1,18 +1,18 @@
 from datetime import datetime
 from flask import render_template, session, redirect, url_for, flash
 from flask import request
-from . import main
+from app.main import blue
 from .forms import RegisterForm
 from .. import models
 
 
 
-@main.route('/', methods=['GET', 'POST'])
+@blue.route('/index/', methods=['GET', 'POST'])
 def index():
-    pass
+    return  render_template('login.html')
 
 
-@main.route('/register/', methods=['GET', 'POST'])
+@blue.route('/register/', methods=['GET', 'POST'])
 def register_wtf():
     # 表单类实例化，渲染模板--在页面上显示表单
     form = RegisterForm()
@@ -42,7 +42,7 @@ def register_wtf():
 
 
 #登录
-@main.route('/login/', methods=['GET', 'POST'])
+@blue.route('/login/', methods=['GET', 'POST'])
 def login():
 
     return render_template('logintest.html')

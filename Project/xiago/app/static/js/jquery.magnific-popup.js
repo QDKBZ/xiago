@@ -687,7 +687,7 @@ MagnificPopup.prototype = {
 				status: status,
 				text: text
 			};
-			// allows to modify status
+			// allows to modify static
 			_mfpTrigger('UpdateStatus', data);
 
 			status = data.status;
