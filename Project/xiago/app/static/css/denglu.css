@@ -1,0 +1,38 @@
+body, p, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, td, input, select, option, textarea { margin: 0; padding: 0; }
+
+a { text-decoration: none; }
+
+li { list-style: none; }
+
+body { background: #ede7e1; }
+
+.list { margin: 50px 120px; height: 570px; }
+.list .list_1 { background: #f8f6f4; float: left; }
+.list .list_1 div { width: 163px; height: 100px; margin-top: 10px; text-align: center; }
+.list .list_1 div p { font-size: 12px; }
+.list .list_1 ul { width: 163px; }
+.list .list_1 ul li a { color: #666666; display: block; width: 163px; height: 46px; font-size: 12px; text-align: left; line-height: 46px; border-bottom: 1px solid #eee; background: #f8f6f4; }
+.list .list_1 ul li b { float: left; width: 25px; height: 25px; margin: 7px 15px 0 12px; }
+.list .list_1 ul li .b_1 { background: url(../img/left_nav_icons.png) no-repeat 4px 6px; }
+.list .list_1 ul li .b_2 { background: url(../img/left_nav_icons.png) no-repeat 4px -21px; }
+.list .list_1 ul li .b_3 { background: url(../img/left_nav_icons.png) no-repeat 4px -46px; }
+.list .list_1 ul li .b_4 { background: url(../img/left_nav_icons.png) no-repeat 4px -73px; }
+.list .list_1 ul li .b_5 { background: url(../img/left_nav_icons.png) no-repeat 4px -98px; }
+.list .list_1 ul li .b_6 { background: url(../img/left_nav_icons.png) no-repeat 4px -123px; }
+.list .list_1 ul li .b_7 { background: url(../img/left_nav_icons.png) no-repeat 4px -147px; }
+.list .list_1 ul li a:hover { background: white; }
+.list .list_2 { float: left; background: white; }
+.list .list_2 .ding { border-bottom: 1px solid #dbd6d0; }
+.list .list_2 .ding p { color: #333333; font-size: 18px; line-height: 46px; display: inline-block; margin-left: 20px; margin-right: 440px; }
+.list .list_2 .ding a { color: #ed1480; font-size: 12px; line-height: 46px; }
+.list .list_2 .tabbox ul { list-style: none; display: table; overflow: hidden; clear: both; }
+.list .list_2 .tabbox ul li { float: left; }
+.list .list_2 .tabbox ul li a { width: 150px; line-height: 50px; display: block; line-height: 50px; text-align: center; border: 1px solid #dbd6d0; cursor: pointer; color: #666; background: #f8f6f4; }
+.list .list_2 .aaa { clear: both; }
+.list .list_2 .tabbox { float: right; border: 1px solid #dbd6d0; height: 570px; overflow: hidden; margin-top: 20px; margin-left: 20px; }
+.list .list_2 .tabbox ul li a.active { background: white; color: #ed1480; font-weight: bold; }
+.list .list_2 .tabbox .content { width: 610px; height: 300px; }
+.list .list_2 .tabbox .content > div { display: none; }
+.list .list_2 .tabbox .content > div.active { display: block; }
+
+/*# sourceMappingURL=denglu.css.map */

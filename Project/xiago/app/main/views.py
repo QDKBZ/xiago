@@ -9,7 +9,12 @@ from .. import models
 
 @blue.route('/index/', methods=['GET', 'POST'])
 def index():
-    return  render_template('login.html')
+    return  render_template('index-2.html')
+
+@blue.route('/denglu/', methods=['GET', 'POST'])
+def denglu():
+    return  render_template('denglu.html')
+
 
 
 @blue.route('/register/', methods=['GET', 'POST'])
@@ -38,11 +43,14 @@ def register_wtf():
             flash('参数错误')
     else:
         return redirect(url_for('register_wtf'))
-    return render_template('register.html'), 404
+    return render_template('register.html')
 
 
 #登录
 @blue.route('/login/', methods=['GET', 'POST'])
 def login():
 
-    return render_template('logintest.html')
+    return render_template('login.html')
+
+
+#   {{ url_for('static',filename='') }}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/denglu.css') }}">
+</head>
+<body>
+    <div class="list">
+        <div class="list_1">
+            <div>
+                <img src="{{ url_for('static',filename='img/114336471-64.jpg') }}" alt="">
+                <p>用户ID: 11433647</p>
+            </div>
+            <ul>
+                <li><b class="b_1"></b><a href="">我的聚美</a></li>
+                <li><b class="b_2"></b><a href="">我的订单</a></li>
+                <li><b class="b_3"></b><a href="">我的心愿单</a></li>
+                <li><b class="b_4"></b><a href="">我的收藏</a></li>
+                <li><b class="b_5"></b><a href="">我的会员等级</a></li>
+                <li><b class="b_6"></b><a href="">我的现金券</a></li>
+                <li><b class="b_7"></b><a href="">我的红包</a></li>
+            </ul>
+        </div>
+        <div class="list_2">
+            <div class="ding">
+                <p>我的订单</p>
+                <a href="">手机客户端，随时随地查看物流详情</a>
+            </div>
+            <div class="aaa"></div>
+            <div class="tabbox">
+            　　<ul>
+            　      <li  class="active"><a href="javascript:void(0);">全部订单</a></li>
+            　　　　<li><a href="javascript:void(0);">等待付款</a> </li>
+            　　　　<li><a href="javascript:void(0);">以付款</a></li>
+            　　　　<li><a href="javascript:void(0);">交易完成</a></li>
+            　　</ul>
+                <div class="content">
+                    <div class="active">1</div>
+                    <div>2</div>
+                　　<div>3</div>
+                　　<div>4</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="{{ url_for('static',filename='js/jquery-1.8.3.js') }}"></script>
+<script>
+    $(function (){
+　　$(".tabbox li").click(function (){
+　　　　//获取点击的元素给其添加样式，讲其兄弟元素的样式移除
+　　　　$(this).addClass("active").siblings().removeClass("active");
+　　　　//获取选中元素的下标
+　　　　var index = $(this).index();
+　　　　$(this).parent().siblings().children().eq(index).addClass("active")
+　　　　.siblings().removeClass("active");
+　　});
+});
+
+</script>
