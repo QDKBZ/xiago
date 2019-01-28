@@ -25,7 +25,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 				name_point: 'Park Hyatt Paris',
 				get_directions_start_address: '',
 				phone: '+3934245255',
-				url_point: 'hotel-detail.html'
+				url_point: 'hotel_detail.html'
 			},
 			{
 				type_point: 'Paris Centre',
@@ -37,7 +37,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 				name_point: 'Hotel Mariott',
 				get_directions_start_address: '',
 				phone: '+3934245255',
-				url_point: 'hotel-detail.html'
+				url_point: 'hotel_detail.html'
 			},
 			{
 				type_point: 'Paris Centre',
@@ -49,7 +49,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 				name_point: 'Hotel Lumiere',
 				get_directions_start_address: '',
 				phone: '+3934245255',
-				url_point: 'hotel-detail.html'
+				url_point: 'hotel_detail.html'
 			},
 			{
 				type_point: 'Paris Centre',
@@ -61,7 +61,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 				name_point: 'Hotel Place Concorde',
 				get_directions_start_address: '',
 				phone: '+3934245255',
-				url_point: 'hotel-detail.html'
+				url_point: 'hotel_detail.html'
 			},
 			{
 				type_point: 'Paris Centre',
@@ -73,7 +73,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 				name_point: 'Hotel Name',
 				get_directions_start_address: '',
 				phone: '+3934245255',
-				url_point: 'hotel-detail.html'
+				url_point: 'hotel_detail.html'
 			},
 			{
 				type_point: 'Paris Centre',
@@ -85,7 +85,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 				name_point: 'Hotel Name',
 				get_directions_start_address: '',
 				phone: '+3934245255',
-				url_point: 'hotel-detail.html'
+				url_point: 'hotel_detail.html'
 			},
 			{
 				type_point: 'Paris Centre',
@@ -97,7 +97,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 				name_point: 'Hotel Name',
 				get_directions_start_address: '',
 				phone: '+3934245255',
-				url_point: 'hotel-detail.html'
+				url_point: 'hotel_detail.html'
 			},
 			{
 				type_point: 'Paris Centre',
@@ -109,7 +109,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 				name_point: 'Hotel Name',
 				get_directions_start_address: '',
 				phone: '+3934245255',
-				url_point: 'hotel-detail.html'
+				url_point: 'hotel_detail.html'
 			},
 			{
 				type_point: 'Paris Centre',
@@ -121,7 +121,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 				name_point: 'Hotel Name',
 				get_directions_start_address: '',
 				phone: '+3934245255',
-				url_point: 'hotel-detail.html'
+				url_point: 'hotel_detail.html'
 			},
 			{
 				type_point: 'Paris Centre',
@@ -133,7 +133,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 				name_point: 'Hotel Name',
 				get_directions_start_address: '',
 				phone: '+3934245255',
-				url_point: 'hotel-detail.html'
+				url_point: 'hotel_detail.html'
 			},
 			{
 				type_point: 'Paris Centre',
@@ -145,7 +145,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 				name_point: 'Hotel Name',
 				get_directions_start_address: '',
 				phone: '+3934245255',
-				url_point: 'hotel-detail.html'
+				url_point: 'hotel_detail.html'
 			},
 			{
 				type_point: 'Paris Centre',
@@ -157,7 +157,7 @@ $('#collapseMap').on('shown.bs.collapse', function(e){
 				name_point: 'Hotel Name',
 				get_directions_start_address: '',
 				phone: '+3934245255',
-				url_point: 'hotel-detail.html'
+				url_point: 'hotel_detail.html'
 			}
 			]
 

@@ -5,17 +5,18 @@ from app.main import blue
 from .forms import RegisterForm
 from .. import models
 
-
-
 @blue.route('/index/', methods=['GET', 'POST'])
 def index():
-    return  render_template('index-2.html')
+    return  render_template('index_2.html')
+
+@blue.route('/hotel/', methods=['GET', 'POST'])
+def hotel():
+    return  render_template('hotel_detail.html')
+
 
 @blue.route('/denglu/', methods=['GET', 'POST'])
 def denglu():
     return  render_template('denglu.html')
-
-
 
 @blue.route('/register/', methods=['GET', 'POST'])
 def register_wtf():
@@ -42,14 +43,13 @@ def register_wtf():
             # 消息闪现，渲染模板
             flash('参数错误')
     else:
-        return redirect(url_for('register_wtf'))
+        pass
+        #return redirect(url_for('register_wtf'))
     return render_template('register.html')
-
 
 #登录
 @blue.route('/login/', methods=['GET', 'POST'])
 def login():
-
     return render_template('login.html')
 
 
