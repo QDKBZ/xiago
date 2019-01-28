@@ -10,19 +10,19 @@
     <title>Panagea | Premium site template for travel agencies, hotels and restaurant listing.</title>
 
     <!-- Favicons-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+    <link rel="shortcut icon" href="{{ url_for('static',filename='img/favicon.ico') }}" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="{{ url_for('static',filename='img/apple-touch-icon-57x57-precomposed.png') }}">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="{{ url_for('static',filename='img/apple-touch-icon-72x72-precomposed.png') }}">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="{{ url_for('static',filename='img/apple-touch-icon-114x114-precomposed.png') }}">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="{{ url_for('static',filename='img/apple-touch-icon-144x144-precomposed.png') }}">
 
     <!-- BASE CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-	<link href="css/vendors.css" rel="stylesheet">
+    <link href="{{ url_for('static',filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static',filename='css/style.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static',filename='css/vendors.css') }}" rel="stylesheet">
 
     <!-- YOUR CUSTOM CSS -->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="{{ url_for('static',filename='css/custom.css') }}" rel="stylesheet">
 
 </head>
 
@@ -34,8 +34,8 @@
 		<div id="preloader"><div data-loader="circle-side"></div></div><!-- /Preload -->
 		<div id="logo">
 			<a href="index.html">
-				<img src="img/logo.png" width="150" height="36" data-retina="true" alt="" class="logo_normal">
-				<img src="img/logo_sticky.png" width="150" height="36" data-retina="true" alt="" class="logo_sticky">
+				<img src="{{ url_for('static',filename='img/logo.png') }}" width="150" height="36" data-retina="true" alt="" class="logo_normal">
+				<img src="{{ url_for('static',filename='img/logo_sticky.png') }}" width="150" height="36" data-retina="true" alt="" class="logo_sticky">
 			</a>
 		</div>
 		<ul id="top_menu">
@@ -148,9 +148,9 @@
 					<h1 class="fadeInUp"><span></span>Hotel detail page</h1>
 				</div>
 				<span class="magnific-gallery">
-					<a href="img/gallery/hotel_list_1.jpg" class="btn_photos" title="Photo title" data-effect="mfp-zoom-in">View photos</a>
-					<a href="img/gallery/hotel_list_2.jpg" title="Photo title" data-effect="mfp-zoom-in"></a>
-					<a href="img/gallery/hotel_list_3.jpg" title="Photo title" data-effect="mfp-zoom-in"></a>
+					<a href="{{ url_for('static',filename='img/gallery/hotel_list_1.jpg') }}" class="btn_photos" title="Photo title" data-effect="mfp-zoom-in">View photos</a>
+					<a href="{{ url_for('static',filename='img/gallery/hotel_list_2.jpg') }}" title="Photo title" data-effect="mfp-zoom-in"></a>
+					<a href="{{ url_for('static',filename='img/gallery/hotel_list_3.jpg') }}" title="Photo title" data-effect="mfp-zoom-in"></a>
 				</span>
 			</div>
 		</section>
@@ -199,17 +199,17 @@
 							<div class="room_type first">
 								<div class="row">
 									<div class="col-md-4">
-										<img src="img/gallery/hotel_list_1.jpg" class="img-fluid" alt="">
+										<img src="{{ url_for('static',filename='img/gallery/hotel_list_1.jpg') }}" class="img-fluid" alt="">
 									</div>
 									<div class="col-md-8">
 										<h4>Single Room</h4>
 										<p>Sit an meis aliquam, cetero inermis vel ut. An sit illum euismod facilisis, tamquam vulputate pertinacia eum at.</p>
 										<ul class="hotel_facilities">
-											<li><img src="img/hotel_facilites_icon_2.svg" alt="">Single Bed</li>
-											<li><img src="img/hotel_facilites_icon_4.svg" alt="">Free Wifi</li>
-											<li><img src="img/hotel_facilites_icon_5.svg" alt="">Shower</li>
-											<li><img src="img/hotel_facilites_icon_7.svg" alt="">Air Condition</li>
-											<li><img src="img/hotel_facilites_icon_8.svg" alt="">Hairdryer</li>
+											<li><img src="{{ url_for('static',filename='img/hotel_facilites_icon_2.svg') }}" alt="">Single Bed</li>
+											<li><img src="{{ url_for('static',filename='img/hotel_facilites_icon_4.svg') }}" alt="">Free Wifi</li>
+											<li><img src="{{ url_for('static',filename='img/hotel_facilites_icon_5.svg') }}" alt="">Shower</li>
+											<li><img src="{{ url_for('static',filename='img/hotel_facilites_icon_7.svg') }}" alt="">Air Condition</li>
+											<li><img src="{{ url_for('static',filename='img/hotel_facilites_icon_8.svg') }}" alt="">Hairdryer</li>
 										</ul>
 									</div>
 								</div>
@@ -219,17 +219,17 @@
 							<div class="room_type gray">
 								<div class="row">
 									<div class="col-md-4">
-										<img src="img/gallery/hotel_list_2.jpg" class="img-fluid" alt="">
+										<img src="{{ url_for('static',filename='img/gallery/hotel_list_2.jpg') }}" class="img-fluid" alt="">
 									</div>
 									<div class="col-md-8">
 										<h4>Double Room</h4>
 										<p>Sit an meis aliquam, cetero inermis vel ut. An sit illum euismod facilisis, tamquam vulputate pertinacia eum at.</p>
 										<ul class="hotel_facilities">
-											<li><img src="img/hotel_facilites_icon_3.svg" alt="">Double Bed</li>
-											<li><img src="img/hotel_facilites_icon_4.svg" alt="">Free Wifi</li>
-											<li><img src="img/hotel_facilites_icon_6.svg" alt="">Bathtub</li>
-											<li><img src="img/hotel_facilites_icon_7.svg" alt="">Air Condition</li>
-											<li><img src="img/hotel_facilites_icon_8.svg" alt="">Hairdryer</li>
+											<li><img src="{{ url_for('static',filename='img/hotel_facilites_icon_3.svg') }}" alt="">Double Bed</li>
+											<li><img src="{{ url_for('static',filename='img/hotel_facilites_icon_4.svg') }}" alt="">Free Wifi</li>
+											<li><img src="{{ url_for('static',filename='img/hotel_facilites_icon_6.svg') }}" alt="">Bathtub</li>
+											<li><img src="{{ url_for('static',filename='img/hotel_facilites_icon_7.svg') }}" alt="">Air Condition</li>
+											<li><img src="{{ url_for('static',filename='img/hotel_facilites_icon_8.svg') }}" alt="">Hairdryer</li>
 										</ul>
 									</div>
 								</div>
@@ -239,18 +239,18 @@
 							<div class="room_type last">
 								<div class="row">
 									<div class="col-md-4">
-										<img src="img/gallery/hotel_list_3.jpg" class="img-fluid" alt="">
+										<img src="{{ url_for('static',filename='img/gallery/hotel_list_3.jpg') }}" class="img-fluid" alt="">
 									</div>
 									<div class="col-md-8">
 										<h4>Suite Room</h4>
 										<p>Sit an meis aliquam, cetero inermis vel ut. An sit illum euismod facilisis, tamquam vulputate pertinacia eum at.</p>
 										<ul class="hotel_facilities">
-											<li><img src="img/hotel_facilites_icon_3.svg" alt="">King size Bed</li>
-											<li><img src="img/hotel_facilites_icon_4.svg" alt="">Free Wifi</li>
-											<li><img src="img/hotel_facilites_icon_6.svg" alt="">Bathtub</li>
-											<li><img src="img/hotel_facilites_icon_7.svg" alt="">Air Condition</li>
-											<li><img src="img/hotel_facilites_icon_9.svg" alt="">Swimming pool</li>
-											<li><img src="img/hotel_facilites_icon_3.svg" alt="">Hairdryer</li>
+											<li><img src="{{ url_for('static',filename='img/hotel_facilites_icon_3.svg') }}" alt="">King size Bed</li>
+											<li><img src="{{ url_for('static',filename='img/hotel_facilites_icon_4.svg') }}" alt="">Free Wifi</li>
+											<li><img src="{{ url_for('static',filename='img/hotel_facilites_icon_6.svg') }}" alt="">Bathtub</li>
+											<li><img src="{{ url_for('static',filename='img/hotel_facilites_icon_6.svg') }}" alt="">Air Condition</li>
+											<li><img src="{{ url_for('static',filename='img/hotel_facilites_icon_9.svg') }}" alt="">Swimming pool</li>
+											<li><img src="{{ url_for('static',filename='img/hotel_facilites_icon_3.svg') }}" alt="">Hairdryer</li>
 										</ul>
 									</div>
 								</div>
@@ -331,7 +331,7 @@
 							<div class="reviews-container">
 
 								<div class="review-box clearfix">
-									<figure class="rev-thumb"><img src="img/avatar1.jpg" alt="">
+									<figure class="rev-thumb"><img src="{{ url_for('static',filename='img/avatar1.jpg') }}" alt="">
 									</figure>
 									<div class="rev-content">
 										<div class="rating">
@@ -349,7 +349,7 @@
 								</div>
 								<!-- /review-box -->
 								<div class="review-box clearfix">
-									<figure class="rev-thumb"><img src="img/avatar2.jpg" alt="">
+									<figure class="rev-thumb"><img src="{{ url_for('static',filename='img/avatar2.jpg') }}" alt="">
 									</figure>
 									<div class="rev-content">
 										<div class="rating">
@@ -367,7 +367,7 @@
 								</div>
 								<!-- /review-box -->
 								<div class="review-box clearfix">
-									<figure class="rev-thumb"><img src="img/avatar3.jpg" alt="">
+									<figure class="rev-thumb"><img src="{{ url_for('static',filename='img/avatar3.jpg') }}" alt="">
 									</figure>
 									<div class="rev-content">
 										<div class="rating">
@@ -491,7 +491,7 @@
 		<div class="container margin_60_35">
 			<div class="row">
 				<div class="col-lg-5 col-md-12 p-r-5">
-					<p><img src="img/logo.png" width="150" height="36" data-retina="true" alt=""></p>
+					<p><img src="{{ url_for('static',filename='img/logo.png') }}" width="150" height="36" data-retina="true" alt=""></p>
 					<p>Mea nibh meis philosophia eu. Duis legimus efficiantur ea sea. Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu. Nihil facilisi indoctum an vix, ut delectus expetendis vis.</p>
 					<div class="follow_us">
 						<ul>
@@ -555,7 +555,7 @@
 								</select>
 							</div>
 						</li>
-						<li><img src="img/cards_all.svg" alt=""></li>
+						<li><img src="{{ url_for('static',filename='img/cards_all.svg') }}" alt=""></li>
 					</ul>
 				</div>
 				<div class="col-lg-6">
@@ -623,15 +623,15 @@
 	<div id="toTop"></div><!-- Back to top button -->
 	
 	<!-- COMMON SCRIPTS -->
-    <script src="js/jquery-2.2.4.min.js"></script>
-    <script src="js/common_scripts.js"></script>
-    <script src="js/main.js"></script>
-	<script src="assets/validate.js"></script>
+    <script src="{{ url_for('static',filename='js/jquery-2.2.4.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/common_scripts.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/main.js') }}"></script>
+	<script src="{{ url_for('static',filename='assets/validate.js') }}"></script>
 	
 	<!-- Map -->
-	<script src="http://maps.googleapis.com/maps/api/js"></script>
-	<script src="js/map_single_hotel.js"></script>
-	<script src="js/infobox.js"></script>
+	<script src="{{ url_for('static',filename='http://maps.googleapis.com/maps/api/js') }}"></script>
+	<script src="{{ url_for('static',filename='js/map_single_hotel.js') }}"></script>
+	<script src="{{ url_for('static',filename='js/infobox.js') }}"></script>
 	
 	<!-- DATEPICKER  -->
 	<script>
@@ -653,7 +653,7 @@
 	</script>
 	
 	<!-- INPUT QUANTITY  -->
-	<script src="js/input_qty.js"></script>
+	<script src="{{ url_for('static',filename='js/input_qty.js') }}"></script>
 	
 	<!-- INSTAGRAM FEED  -->
 	<script>
