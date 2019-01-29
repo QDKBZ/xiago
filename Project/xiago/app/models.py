@@ -97,8 +97,13 @@ class Commodity(db.Model):
     address3 = db.relationship("Shopping_car", backref="commodity", uselist=False)
     address4 = db.relationship("Back_to_buy", backref="commodity", uselist=False)
 
-
-
+class Brand(db.Model):
+    __tablename__ = "brand"
+    b_id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(200), nullable=False)
+    url = db.Column(db.Float(255), nullable=False)
+    img = db.Column(db.Float(255), nullable=False)
+    miaoshu = db.Column(db.String(200), nullable=False)
 # 评价表
 class Estimate(db.Model):
     __tablename__ = "estimate"
