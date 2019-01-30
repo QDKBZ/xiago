@@ -166,9 +166,6 @@
 						<img src="{{ url_for('static',filename='img/flex_slides/slide_4.jpg') }}" alt="">
 						<div class="meta">
 							<h3>雅诗兰黛<br>为您臻献<br>卓效的<br>美肤臻品、缤纷彩妆、迷人香氛</h3>
-							<!--<div class="info">-->
-								<!--<p><strong>220</strong> Hotels - <strong>150</strong> Restaurant</p>-->
-							<!--</div>-->
 							<a href="#0" class="btn_1">详情</a>
 						</div>
 					</li>
@@ -188,41 +185,16 @@
 			<div id="carousel_slider_wp">
 				<div id="carousel_slider" class="flexslider">
 					<ul class="slides">
+                        {% for brand in brands %}
 						<li>
-							<img src="{{ url_for('static',filename='img/flex_slides/slide_1_thumb.jpg') }}" alt="">
+							<img src="{{ brand.img }}" alt="">
 							<div class="caption">
-								<h3>圣罗兰<span>亮颜眼唇卸妆液</span></h3>
+								<h3>{{ brand.title }}</h3>
 								<small>￥350<strong id="weather" class="weather"></strong></small>
 							</div>
 						</li>
-						<li>
-							<img src="{{ url_for('static',filename='img/flex_slides/slide_2_thumb.jpg') }}" alt="">
-							<div class="caption">
-								<h3>阿玛尼<span><br>轻垫精华粉底液（粉盒+粉芯）</span></h3>
-								<small>￥630<strong id="weather_2" class="weather"></strong></small>
-							</div>
-						</li>
-						<li>
-							<img src="{{ url_for('static',filename='img/flex_slides/slide_3_thumb.jpg') }}" alt="">
-							<div class="caption">
-								<h3>DIOR<span>全新DIOR迪奥烈艳蓝金挚红唇膏</span></h3>
-								<small>$80<strong id="weather_3" class="weather"></strong></small>
-							</div>
-						</li>
-						<li>
-							<img src="{{ url_for('static',filename='img/flex_slides/slide_4_thumb.jpg') }}" alt="">
-							<div class="caption">
-								<h3>小棕瓶眼霜 <span>熬夜不怕黑眼圈<br>绽放明眸熠彩</span></h3>
-								<small>￥510/15ml<strong id="weather_4" class="weather"></strong></small>
-							</div>
-						</li>
-						<li>
-							<img src="{{ url_for('static',filename='img/flex_slides/slide_5_thumb.jpg') }}" alt="">
-							<div class="caption">
-								<h3>LANCOME<span>美丽人生香水<br>30ml礼盒</span></h3>
-								<small>￥520<strong id="weather_5" class="weather"></strong></small>
-							</div>
-						</li>
+                        {% endfor %}
+
 					</ul>
 				</div>
 			</div>
@@ -235,157 +207,21 @@
 				<p>只为提供专属您的服务</p>
 			</div>
 			<div id="reccomended" class="owl-carousel owl-theme">
+                {% for brand in brands %}
 				<div class="item">
 					<div class="box_grid">
-						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.html"><img src="{{ url_for('static',filename='img/tour_1.jpg') }}" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
-							<small>MISSHA</small>
-						</figure>
+							<a href="{{ url_for('main.hotel',id = brand.b_id) }}"><img src="{{ brand.img }}" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
+							<small></small>
 						<div class="wrapper">
-							<h3><a href="tour-detail.html">人气BB直降</a></h3>
-							<p>人气BB直降 谜尚彩妆专场</p>
-							<!--<span class="price">From <strong>$54</strong> /per person</span>-->
+							<h3><a href="tour-detail.html">{{ brand.title }}</a></h3>
+							<p>{{ brand.miaoshu }}</p>
 						</div>
 						<ul>
-							<!--<li><i class="icon_clock_alt"></i> 1h 30min</li>-->
-							<li><div class="score"><span>Superb<em>30 thousands Reviews</em></span><strong>9.5</strong></div></li>
 						</ul>
 					</div>
 				</div>
-				<!-- /item -->
-				<div class="item">
-					<div class="box_grid">
-						<figure>
-							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.html"><img src="{{ url_for('static',filename='img/tour_2.jpg') }}" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
-							<small>flowery land</small>
-						</figure>
-						<div class="wrapper">
-							<h3><a href="tour-detail.html">面膜低至1.5元/片</a></h3>
-							<p>面膜低至1.5元/片 花肌粹</p>
-							<!--<span class="price">From <strong>$54</strong> /per person</span>-->
-						</div>
-						<ul>
-							<!--<li><i class="icon_clock_alt"></i> 1h 30min</li>-->
-							<li><div class="score"><span>Superb<em>28 thousands Reviews</em></span><strong>9.3</strong></div></li>
-						</ul>
-					</div>
-				</div>
-				<div class="item">
-					<div class="box_grid">
-						<figure>
-							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.html"><img src="{{ url_for('static',filename='img/tour_3.jpg') }}" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
-							<small>巴黎欧莱雅</small>
-						</figure>
-						<div class="wrapper">
-							<h3><a href="tour-detail.html">新年礼盒上新</a></h3>
-							<p>新年礼盒上新 欧莱雅护肤热卖专场</p>
-							<!--<span class="price">From <strong>$54</strong> /per person</span>-->
-						</div>
-						<ul>
-							<!--<li><i class="icon_clock_alt"></i> 1h 30min</li>-->
-							<li><div class="score"><span>Superb<em>26 thousands Reviews</em></span><strong>9.0</strong></div></li>
-						</ul>
-					</div>
-				</div>
-				<!-- /item -->
-				<div class="item">
-					<div class="box_grid">
-						<figure>
-							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.html"><img src="{{ url_for('static',filename='img/tour_4.jpg') }}" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
-							<small>MAYBELLINE</small>
-						</figure>
-						<div class="wrapper">
-							<h3><a href="tour-detail.html">跨年直降</a></h3>
-							<p>跨年直降 美宝莲人气彩妆专场</p>
-							<!--<span class="price">From <strong>$54</strong> /per person</span>-->
-						</div>
-						<ul>
-							<!--<li><i class="icon_clock_alt"></i> 1h 30min</li>-->
-							<li><div class="score"><span>Superb<em>25 thousands Reviews</em></span><strong>8.9</strong></div></li>
-						</ul>
-					</div>
-				</div>
-				<!-- /item -->
-				<div class="item">
-					<div class="box_grid">
-						<figure>
-							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.html"><img src="{{ url_for('static',filename='img/tour_5.jpg') }}" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
-							<small>SOMANG COSMETICS</small>
-						</figure>
-						<div class="wrapper">
-							<h3><a href="tour-detail.html">牛奶般滋润</a></h3>
-							<p>让牛奶百般滋润 所望牛奶护肤专场</p>
-							<!--<span class="price">From <strong>$54</strong> /per person</span>-->
-						</div>
-						<ul>
-							<!--<li><i class="icon_clock_alt"></i> 1h 30min</li>-->
-							<li><div class="score"><span>Superb<em>20 thousands Reviews</em></span><strong>8.6</strong></div></li>
-						</ul>
-					</div>
-				</div>
-				<!-- /item -->
-				<div class="item">
-					<div class="box_grid">
-						<figure>
-							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.html"><img src="{{ url_for('static',filename='img/tour_6.jpg') }}" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
-							<small>OLAY</small>
-						</figure>
-						<div class="wrapper">
-							<h3><a href="tour-detail.html">小白瓶直降</a></h3>
-							<p>小白瓶直降 玉兰油热卖专场</p>
-							<!--<span class="price">From <strong>$54</strong> /per person</span>-->
-						</div>
-						<ul>
-							<!--<li><i class="icon_clock_alt"></i> 1h 30min</li>-->
-							<li><div class="score"><span>Superb<em>18 thousands Reviews</em></span><strong>8.1</strong></div></li>
-						</ul>
-					</div>
-				</div>
-				<!-- /item -->
-
-				<div class="item">
-					<div class="box_grid">
-						<figure>
-							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.html"><img src="{{ url_for('static',filename='img/tour_7.jpg') }}" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
-							<small>佰草集</small>
-						</figure>
-						<div class="wrapper">
-							<h3><a href="tour-detail.html">国货精粹2.8折起</a></h3>
-							<p>国货精粹2.8折起 佰草集经典国货专场</p>
-							<!--<span class="price">From <strong>$54</strong> /per person</span>-->
-						</div>
-						<ul>
-							<!--<li><i class="icon_clock_alt"></i> 1h 30min</li>-->
-							<li><div class="score"><span>Superb<em>17 thousands Reviews</em></span><strong>8.0</strong></div></li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="item">
-					<div class="box_grid">
-						<figure>
-							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.html"><img src="{{ url_for('static',filename='img/tour_8.jpg') }}" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
-							<small>百雀羚</small>
-						</figure>
-						<div class="wrapper">
-							<h3><a href="tour-detail.html">全场低至3.7折</a></h3>
-							<p>全场低至3.7折 百雀羚热卖专场</p>
-							<!--<span class="price">From <strong>$54</strong> /per person</span>-->
-						</div>
-						<ul>
-							<!--<li><i class="icon_clock_alt"></i> 1h 30min</li>-->
-							<li><div class="score"><span>Superb<em>15 thousands Reviews</em></span><strong>7.9</strong></div></li>
-						</ul>
-					</div>
-				</div>
+                {% endfor %}
 			</div>
 			<!-- /carousel -->
 			<div class="container">
@@ -394,232 +230,6 @@
 			<!-- /container -->
 			<hr class="large">
 		</div>
-		<!-- /container -->
-
-		<div class="container-fluid margin_30_95 pl-lg-5 pr-lg-5">
-			<section class="add_bottom_45">
-				<div class="main_title_3">
-					<span><em></em></span>
-					<h2>今日抢购</h2>
-					<p>Must buy today</p>
-				</div>
-				<div class="row">
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel_detail.html" class="grid_item">
-							<figure>
-								<div class="score"><strong>8.9</strong></div>
-								<img src="{{ url_for('static',filename='img/hotel_1.jpg') }}" class="img-fluid" alt="">
-								<div class="info">
-									<!--<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>-->
-									<h3>7.9折/思亲肤韩国思亲肤黑石榴莹润化妆水180ml爽肤水补水保湿淡化细纹</h3>
-								</div>
-							</figure>
-						</a>
-					</div>
-					<!-- /grid_item -->
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel_detail.html" class="grid_item">
-							<figure>
-								<div class="score"><strong>7.9</strong></div>
-								<img src="{{ url_for('static',filename='img/hotel_2.jpg') }}" class="img-fluid" alt="">
-								<div class="info">
-									<!--<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>-->
-									<h3>8.0折/玉兰油玉兰油OLAY 草本清凉深层洁面乳100g 收缩毛孔 洗面奶</h3>
-								</div>
-							</figure>
-						</a>
-					</div>
-					<!-- /grid_item -->
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel_detail.html" class="grid_item">
-							<figure>
-								<div class="score"><strong>7.0</strong></div>
-								<img src="{{ url_for('static',filename='img/hotel_3.jpg') }}" class="img-fluid" alt="">
-								<div class="info">
-									<!--<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>-->
-									<h3>10.0折/泊美泊美PURE&MILD 鲜纯珍萃保湿乳液水润型120ml 乳液 清爽</h3>
-								</div>
-							</figure>
-						</a>
-					</div>
-					<!-- /grid_item -->
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel_detail.html" class="grid_item">
-							<figure>
-								<div class="score"><strong>8.9</strong></div>
-								<img src="{{ url_for('static',filename='img/hotel_4.jpg') }}" class="img-fluid" alt="">
-								<div class="info">
-									<!--<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>-->
-									<h3>7.7折/ 薇欧薇薇欧薇VOV自然眉笔 33# 咖啡色 2.1g 防水 持久</h3>
-								</div>
-							</figure>
-						</a>
-					</div><br>
-					<!-- /grid_item -->
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel_detail.html" class="grid_item">
-							<figure>
-								<div class="score"><strong>8.9</strong></div>
-								<img src="{{ url_for('static',filename='img/hotel_5.jpg') }}" class="img-fluid" alt="">
-								<div class="info">
-									<!--<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>-->
-									<h3>5.2折/色彩地带色彩地带 毛孔细致妆前乳 状前乳 控油保湿 细致毛孔 透明</h3>
-								</div>
-							</figure>
-						</a>
-					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel_detail.html" class="grid_item">
-							<figure>
-								<div class="score"><strong>8.9</strong></div>
-								<img src="{{ url_for('static',filename='img/hotel_6.jpg') }}" class="img-fluid" alt="">
-								<div class="info">
-									<!--<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>-->
-									<h3>5.6折/美宝莲美宝莲超然柔雾轻垫霜 （亮肤） 好气色超值组合</h3>
-								</div>
-							</figure>
-						</a>
-					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel_detail.html" class="grid_item">
-							<figure>
-								<div class="score"><strong>8.9</strong></div>
-								<img src="{{ url_for('static',filename='img/hotel_7.jpg') }}" class="img-fluid" alt="">
-								<div class="info">
-									<!--<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>-->
-									<h3>4.8折/花印【祛痘淡印】花印抗痘细肤面膜80g 舒缓淡化痘印</h3>
-								</div>
-							</figure>
-						</a>
-					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel_detail.html" class="grid_item">
-							<figure>
-								<div class="score"><strong>8.9</strong></div>
-								<img src="{{ url_for('static',filename='img/hotel_8.jpg') }}" class="img-fluid" alt="">
-								<div class="info">
-									<!--<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>-->
-									<h3>7.1折/理肤泉理肤泉B5多效修复套装 保湿修护护肤品套装</h3>
-								</div>
-							</figure>
-						</a>
-					</div><br>
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel_detail.html" class="grid_item">
-							<figure>
-								<div class="score"><strong>8.9</strong></div>
-								<img src="{{ url_for('static',filename='img/hotel_9.jpg') }}" class="img-fluid" alt="">
-								<div class="info">
-									<!--<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>-->
-									<h3>5.8折/韩束入门洁面 所有肤质 洁面 巨水光高保湿洁面乳120ml</h3>
-								</div>
-							</figure>
-						</a>
-					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel_detail.html" class="grid_item">
-							<figure>
-								<div class="score"><strong>8.9</strong></div>
-								<img src="{{ url_for('static',filename='img/hotel_10.jpg') }}" class="img-fluid" alt="">
-								<div class="info">
-									<!--<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>-->
-									<h3>7.3折/思亲肤韩国SKINFOOD思亲肤 爽肤水补水 莴苣黄瓜沁颜化妆水 180ml 化妆水 爽肤水 补水保湿 水油平衡 紧致毛孔</h3>
-								</div>
-							</figure>
-						</a>
-					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel_detail.html" class="grid_item">
-							<figure>
-								<div class="score"><strong>8.9</strong></div>
-								<img src="{{ url_for('static',filename='img/hotel_11.jpg') }}" class="img-fluid" alt="">
-								<div class="info">
-									<!--<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>-->
-									<h3>7.7折/玉兰油玉兰油OLAY 多效修护醒肤水150ml 爽肤水 提亮 收缩毛孔 补水保湿</h3>
-								</div>
-							</figure>
-						</a>
-					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel_detail.html" class="grid_item">
-							<figure>
-								<div class="score"><strong>8.9</strong></div>
-								<img src="{{ url_for('static',filename='img/hotel_12.jpg') }}" class="img-fluid" alt="">
-								<div class="info">
-									<!--<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>-->
-									<h3>10.0折/泊美泊美PURE&MILD 鲜纯珍萃保湿乳液滋润型120ml 乳液 滋润保湿</h3>
-								</div>
-							</figure>
-						</a>
-					</div>
-				</div>
-				<!-- /row -->
-				<a href="hotels-grid-isotope.html"><strong>show all<i class="arrow_carrot-right"></i></strong></a>
-			</section>
-			<!-- /section -->
-
-			<section>
-				<div class="main_title_3">
-					<span><em></em></span>
-					<h2>VIP 专享</h2>
-					<p>如果你也想拥有，赶紧提升你的特权哟~~~~~~~~~</p>
-				</div>
-				<div class="row">
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="restaurant-detail.html" class="grid_item">
-							<figure>
-								<div class="score"><strong>8.5</strong></div>
-								<img src="{{ url_for('static',filename='img/restaurant_1.jpg') }}" class="img-fluid" alt="">
-								<div class="info">
-									<h3>gf 高夫</h3>
-								</div>
-							</figure>
-						</a>
-					</div>
-					<!-- /grid_item -->
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="restaurant-detail.html" class="grid_item">
-							<figure>
-								<div class="score"><strong>8.3</strong></div>
-								<img src="{{ url_for('static',filename='img/restaurant_2.jpg') }}" class="img-fluid" alt="">
-								<div class="info">
-									<h3>L'OREAL PARIS</h3>
-								</div>
-							</figure>
-						</a>
-					</div>
-					<!-- /grid_item -->
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="restaurant-detail.html" class="grid_item">
-							<figure>
-								<div class="score"><strong>8.0</strong></div>
-								<img src="{{ url_for('static',filename='img/restaurant_3.jpg') }}" class="img-fluid" alt="">
-								<div class="info">
-									<h3>Maybelline</h3>
-								</div>
-							</figure>
-						</a>
-					</div>
-					<!-- /grid_item -->
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="restaurant-detail.html" class="grid_item">
-							<figure>
-								<div class="score"><strong>7.9</strong></div>
-								<img src="{{ url_for('static',filename='img/restaurant_4.jpg') }}" class="img-fluid" alt="">
-								<div class="info">
-									<h3>OLAY</h3>
-								</div>
-							</figure>
-						</a>
-					</div>
-					<!-- /grid_item -->
-				</div>
-				<!-- /row -->
-				<a href="restaurants-grid-isotope.html"><strong>View all (157) <i class="arrow_carrot-right"></i></strong></a>
-			</section>
-			<!-- /section -->
-		</div>
-		<!-- /container -->
 
 		<div class="bg_color_1">
 			<div class="container margin_80_55">
@@ -629,85 +239,22 @@
 					<p>The choice of millions of users</p>
 				</div>
 				<div class="row">
+                    {% for brand in brands %}
 					<div class="col-lg-6">
 						<a class="box_news" href="#0">
-							<figure><img src="{{ url_for('static',filename='img/news_home_1.jpg') }}" alt="">
-								<!--<figcaption><strong>28</strong>Dec</figcaption>-->
+							<figure><img src="{{ brand.img }}" alt="">
 							</figure>
-							<!--<ul>-->
-								<!--<li>Mark Twain</li>-->
-								<!--<li>20.11.2017</li>-->
-							<!--</ul>-->
-							<h4>You need a professional team here</h4>
-							<p>值得信赖美妆电商<br> 四千万用户信赖</p>
+							<h4>{{ brand.title }}</h4>
+							<p>{{ brand.miaoshu }}</p>
 						</a>
 					</div>
-					<!-- /box_news -->
-					<div class="col-lg-6">
-						<a class="box_news" href="#0">
-							<figure><img src="{{ url_for('static',filename='img/news_home_2.jpg') }}" alt="">
-								<!--<figcaption><strong>28</strong>Dec</figcaption>-->
-							</figure>
-							<!--<ul>-->
-								<!--<li>Jhon Doe</li>-->
-								<!--<li>20.11.2017</li>-->
-							<!--</ul>-->
-							<h4>品牌防伪码</h4>
-							<p>支持品牌官方验真</p>
-						</a>
-					</div>
-					<!-- /box_news -->
-					<div class="col-lg-6">
-						<a class="box_news" href="#0">
-							<figure><img src="{{ url_for('static',filename='img/news_home_3.jpg') }}" alt="">
-								<!--<figcaption><strong>28</strong>Dec</figcaption>-->
-							</figure>
-							<!--<ul>-->
-								<!--<li>Luca Robinson</li>-->
-								<!--<li>20.11.2017</li>-->
-							<!--</ul>-->
-							<h4>百万用户的口碑</h4>
-							<p>帮你只选对的<br>根据您的肤质<br>只选对的，不选贵的</p>
-						</a>
-					</div>
-					<!-- /box_news -->
-					<div class="col-lg-6">
-						<a class="box_news" href="#0">
-							<figure><img src="{{ url_for('static',filename='img/news_home_4.jpg') }}" alt="">
-								<!--<figcaption><strong>28</strong>Dec</figcaption>-->
-							</figure>
-							<!--<ul>-->
-								<!--<li>Paula Rodrigez</li>-->
-								<!--<li>20.11.2017</li>-->
-							<!--</ul>-->
-							<h4>订货闪电发送</h4>
-							<p>2小时之内急速出库</p>
-						</a>
-					</div>
-					<!-- /box_news -->
+                    {% endfor %}
 				</div>
 				<!-- /row -->
 				<p class="btn_home_align"><a href="blog.html" class="btn_1 rounded">查看全部</a></p>
 			</div>
 			<!-- /container -->
 		</div>
-		<!-- /bg_color_1 -->
-
-		<!--<div class="call_section">-->
-			<!--<div class="container clearfix">-->
-				<!--<div class="col-lg-5 col-md-6 float-right wow" data-wow-offset="250">-->
-					<!--<div class="block-reveal">-->
-						<!--<div class="block-vertical"></div>-->
-						<!--<div class="box_1">-->
-							<!--<h3>Enjoy a GREAT travel with us</h3>-->
-							<!--<p>Ius cu tamquam persequeris, eu veniam apeirian platonem qui, id aliquip voluptatibus pri. Ei mea primis ornatus disputationi. Menandri erroribus cu per, duo solet congue ut. </p>-->
-							<!--<a href="#0" class="btn_1 rounded">Read more</a>-->
-						<!--</div>-->
-					<!--</div>-->
-				<!--</div>-->
-			<!--</div>-->
-		<!--</div>-->
-		<!--/call_section-->
 	</main>
 	<!-- /main -->
 
@@ -737,13 +284,6 @@
 				<div class="col-lg-3 col-md-6 ml-lg-auto">
 					<h5>相关</h5>
 					<ul class="links">
-						<!--
-						About
-						Login
-						Register
-						News & Events
-						Contacts
-						-->
 						<li><a href="about.html">关于</a></li>
 						<li><a href="login.html">登录</a></li>
 						<li><a href="register.html">注册</a></li>

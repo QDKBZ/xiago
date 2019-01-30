@@ -2,21 +2,24 @@ from datetime import datetime
 from flask import render_template, session, redirect, url_for, flash
 from flask import request
 from app.main import blue
+from app.models import Brand, Commodity
 from .forms import RegisterForm
 from .. import models
 
 @blue.route('/index/', methods=['GET', 'POST'])
 def index():
-    return  render_template('index_2.html')
+    brands = Brand.query.limit(6)
+    print(brands)
+    return  render_template('index_2.html',brands=brands)
 
-@blue.route('/hotel/', methods=['GET', 'POST'])
-def hotel():
-    return  render_template('hotel_detail.html')
+@blue.route('/hotel/<id>')
+def hotel(id):
+    brand = Brand.query.get(id)
+    img = brand.img
+    name = brand.title
+    coms = Commodity.query.filter_by(co_name=name).limit(8)
+    return  render_template('hotel.html',coms=coms,img=img)
 
-
-@blue.route('/denglu/', methods=['GET', 'POST'])
-def denglu():
-    return  render_template('denglu.html')
 
 @blue.route('/register/', methods=['GET', 'POST'])
 def register_wtf():
