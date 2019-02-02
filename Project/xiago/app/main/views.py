@@ -4,16 +4,36 @@ from flask import request
 from flask_login import login_user, logout_user, login_required
 from app.email import send_email
 from app.main import blue
+<<<<<<< HEAD
 from .forms import RegistrationForm, LoginForm
+=======
+from app.models import Brand, Commodity
+from .forms import RegisterForm
+>>>>>>> 946c9d86f2295bab6cadfbbb8cd06b0b4fa070a1
 from .. import models
 
 @blue.route('/index/', methods=['GET', 'POST'])
 def index():
+<<<<<<< HEAD
     return render_template('index_2.html')
 
 @blue.route('/hotel/', methods=['GET', 'POST'])
 def hotel():
     return render_template('hotel_detail.html')
+=======
+    brands = Brand.query.limit(6)
+    print(brands)
+    return  render_template('index_2.html',brands=brands)
+
+@blue.route('/hotel/<id>')
+def hotel(id):
+    brand = Brand.query.get(id)
+    img = brand.img
+    name = brand.title
+    coms = Commodity.query.filter_by(co_name=name).limit(8)
+    return  render_template('hotel.html',coms=coms,img=img)
+
+>>>>>>> 946c9d86f2295bab6cadfbbb8cd06b0b4fa070a1
 
 @blue.route('/register/', methods=['GET', 'POST'])
 def register():

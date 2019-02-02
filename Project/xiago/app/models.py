@@ -26,6 +26,7 @@ class User(db.Model):
     last_login_ip = db.Column(db.String(200))
     last_login_time = db.Column(db.Time)
     user_class_id = db.Column(db.Integer, db.ForeignKey('user_class.uc_id'))
+<<<<<<< HEAD
     address = db.relationship("Order_form", backref="user")
     address1 = db.relationship("Estimate", backref="user")
     address2 = db.relationship("Shopping_car", backref="user")
@@ -44,6 +45,12 @@ class User(db.Model):
 
     def verify_password(self, password):
         return check_password_hash(self.user_password, password)
+=======
+    # address = db.relationship("Order_form",backref="User")
+    # address1 = db.relationship("Estimate", backref="User")
+    # address2 = db.relationship("Shopping_car", backref="User")
+    # address3 = db.relationship("Take_information", backref="User")
+>>>>>>> 946c9d86f2295bab6cadfbbb8cd06b0b4fa070a1
 
     def __repr__(self):
         return self.user_name
@@ -54,8 +61,8 @@ class User_class(db.Model):
     uc_svip = db.Column(db.Integer)
     uc_vip = db.Column(db.Integer)
     uc_nvip = db.Column(db.Integer)
-    address1 = db.relationship("User", backref="user_class")
-    address2 = db.relationship("Impower", backref="user_class")
+    # address1 = db.relationship("User", backref="user_class")
+    # address2 = db.relationship("Impower", backref="user_class")
 
 # 公司表
 class Company_information(db.Model):
@@ -63,8 +70,13 @@ class Company_information(db.Model):
     cpy_id = db.Column(db.Integer, primary_key=True)
     cpy_num = db.Column(db.Integer, nullable=False)
     cpy_name = db.Column(db.String(200), nullable=False)
+<<<<<<< HEAD
     address = db.relationship("Department_information", backref="company_information")
     address1 = db.relationship("Staff_information", backref="company_information")
+=======
+    # address = db.relationship("department_information", backref="company_information")
+    # address1 = db.relationship("staff_information", backref="company_information")
+>>>>>>> 946c9d86f2295bab6cadfbbb8cd06b0b4fa070a1
 
 
 # 部门表
@@ -74,7 +86,11 @@ class Department_information(db.Model):
     dt_num = db.Column(db.Integer, nullable=False)
     dt_name = db.Column(db.String(200), nullable=False)
     dt_cpy_id = db.Column(db.Integer, db.ForeignKey('company_information.cpy_id'))
+<<<<<<< HEAD
     address1 = db.relationship("Staff_information", backref="department_information")
+=======
+    # address1 = db.relationship("staff_information", backref="Department_information")
+>>>>>>> 946c9d86f2295bab6cadfbbb8cd06b0b4fa070a1
 
 
 # 员工表
@@ -108,13 +124,19 @@ class Commodity(db.Model):
     co_old_price = db.Column(db.Float(50), nullable=False)
     co_img = db.Column(db.String(200), nullable=False)
     co_information = db.Column(db.String(500), nullable=False)
-    address1 = db.relationship("Estimate", backref="commodity")
-    address2 = db.relationship("Order_form", backref="commodity", uselist=False)
-    address3 = db.relationship("Shopping_car", backref="commodity", uselist=False)
-    address4 = db.relationship("Back_to_buy", backref="commodity", uselist=False)
+    # address1 = db.relationship("Estimate", backref="commodity")
+    # address2 = db.relationship("Order_form", backref="commodity", uselist=False)
+    # address3 = db.relationship("Shopping_car", backref="commodity", uselist=False)
+    # address4 = db.relationship("Back_to_buy", backref="commodity", uselist=False)
 
 
-
+class Brand(db.Model):
+    __tablename__ = "brand"
+    b_id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(200), nullable=False)
+    url = db.Column(db.String(255), nullable=False)
+    img = db.Column(db.String(255), nullable=False)
+    miaoshu = db.Column(db.String(200), nullable=False)
 # 评价表
 class Estimate(db.Model):
     __tablename__ = "estimate"
@@ -166,4 +188,8 @@ class Take_information(db.Model):
     ta_address = db.Column(db.String(200), nullable=False)
     ta_tel = db.Column(db.String(11), nullable=False)
     ta_user_id = db.Column(db.Integer, db.ForeignKey('users.user_id'))
+<<<<<<< HEAD
     address1 = db.relationship("Order_form", backref="take_information")
+=======
+    # address1 = db.relationship("order_form", backref="take_information")
+>>>>>>> 946c9d86f2295bab6cadfbbb8cd06b0b4fa070a1
