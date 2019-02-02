@@ -1,4 +1,6 @@
 from flask_sqlalchemy import SQLAlchemy
+from werkzeug.security import check_password_hash, generate_password_hash
+
 db = SQLAlchemy()
 
 
@@ -16,18 +18,32 @@ class User(db.Model):
     user_name = db.Column(db.String(64), unique=True, index=True, )
     user_password = db.Column(db.String(32), nullable=False)
     user_mobile = db.Column(db.String(11), nullable=False)
-    head_portrait = db.Column(db.String(30), nullable=True)
+    head_portrait = db.Column(db.String(30))
     sex = db.Column(db.Boolean, default=0)
-    birthday = db.Column(db.Time, nullable=False)
-    emial = db.Column(db.String(200), nullable=True)
+    birthday = db.Column(db.Time)
+    email = db.Column(db.String(200), nullable=True)
     if_online = db.Column(db.Boolean, default=0)
     last_login_ip = db.Column(db.String(200))
     last_login_time = db.Column(db.Time)
     user_class_id = db.Column(db.Integer, db.ForeignKey('user_class.uc_id'))
-    address = db.relationship("Order_form",backref="User")
-    address1 = db.relationship("Estimate", backref="User")
-    address2 = db.relationship("Shopping_car", backref="User")
-    address3 = db.relationship("Take_information", backref="User")
+    address = db.relationship("Order_form", backref="user")
+    address1 = db.relationship("Estimate", backref="user")
+    address2 = db.relationship("Shopping_car", backref="user")
+    address3 = db.relationship("Take_information", backref="user")
+
+    def __init__(self, **kwargs):
+        super(User, self).__init__(**kwargs)
+
+    @property
+    def password(self):
+        raise AttributeError('password is not a readable attribute')
+
+    @password.setter
+    def password(self, password):
+        self.user_password = generate_password_hash(password)
+
+    def verify_password(self, password):
+        return check_password_hash(self.user_password, password)
 
     def __repr__(self):
         return self.user_name
@@ -47,8 +63,8 @@ class Company_information(db.Model):
     cpy_id = db.Column(db.Integer, primary_key=True)
     cpy_num = db.Column(db.Integer, nullable=False)
     cpy_name = db.Column(db.String(200), nullable=False)
-    address = db.relationship("department_information", backref="company_information")
-    address1 = db.relationship("staff_information", backref="company_information")
+    address = db.relationship("Department_information", backref="company_information")
+    address1 = db.relationship("Staff_information", backref="company_information")
 
 
 # 部门表
@@ -58,7 +74,7 @@ class Department_information(db.Model):
     dt_num = db.Column(db.Integer, nullable=False)
     dt_name = db.Column(db.String(200), nullable=False)
     dt_cpy_id = db.Column(db.Integer, db.ForeignKey('company_information.cpy_id'))
-    address1 = db.relationship("staff_information", backref="Department_information")
+    address1 = db.relationship("Staff_information", backref="department_information")
 
 
 # 员工表
@@ -137,7 +153,7 @@ class Shopping_car(db.Model):
 class Back_to_buy(db.Model):
     __tablename__ = "back_to_buy"
     btb_id = db.Column(db.Integer, primary_key=True)
-    btb_text = db.Column(db.Text, nullable= False)
+    btb_text = db.Column(db.Text, nullable=False)
     btb_co_infor_id = db.Column(db.Integer, db.ForeignKey('commodity.co_id'))
 
 
@@ -150,4 +166,4 @@ class Take_information(db.Model):
     ta_address = db.Column(db.String(200), nullable=False)
     ta_tel = db.Column(db.String(11), nullable=False)
     ta_user_id = db.Column(db.Integer, db.ForeignKey('users.user_id'))
-    address1 = db.relationship("order_form", backref="take_information")
+    address1 = db.relationship("Order_form", backref="take_information")

@@ -18,6 +18,7 @@ def create_app(version="default"):
     # app.config.from_object(config[config_name])
     # config[config_name].init_app(app)
     app.config.from_object(settings.config.get(version, 'default'))
+    app.config['SECRET_KEY'] = 'hard to guess string'
 
     migrate = Migrate(app=app, db=models.db)
     bootstrap.init_app(app)

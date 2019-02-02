@@ -1,56 +1,59 @@
 from datetime import datetime
 from flask import render_template, session, redirect, url_for, flash
 from flask import request
+from flask_login import login_user, logout_user, login_required
+from app.email import send_email
 from app.main import blue
-from .forms import RegisterForm
+from .forms import RegistrationForm, LoginForm
 from .. import models
 
 @blue.route('/index/', methods=['GET', 'POST'])
 def index():
-    return  render_template('index_2.html')
+    return render_template('index_2.html')
 
 @blue.route('/hotel/', methods=['GET', 'POST'])
 def hotel():
-    return  render_template('hotel_detail.html')
-
-
-@blue.route('/denglu/', methods=['GET', 'POST'])
-def denglu():
-    return  render_template('denglu.html')
+    return render_template('hotel_detail.html')
 
 @blue.route('/register/', methods=['GET', 'POST'])
-def register_wtf():
-    # 表单类实例化，渲染模板--在页面上显示表单
-    form = RegisterForm()
-    # 判断提交方式是否是post，是，说明用户提交的表单
-    if request.method == 'POST':
-        # 对表单进行验证
-        if form.validate_on_submit():
-            # 验证通过执行以下代码
-            username = request.form.get('username')
-            password = request.form.get('password')
-            password2 = request.form.get('password2')
-            tel = request.form.get('tel')
-            sex = request.form.get('sex')
-            birthday = request.form.get('birthday')
-            email = request.form.get('email')
+def register():
+    form = RegistrationForm()
+    if form.validate_on_submit():
+        user = models.User(email=form.email.data,
+                    user_name=form.user_name.data,
+                    user_password=form.password.data,
+                           user_mobile=form.tel.data)
+        models.db.session.add(user)
+        models.db.session.commit()
+        # token = user.generate_confirmation_token()
+        # send_email(user.email, 'Confirm Your Account',
+        #            'auth/email/confirm', user=user, token=token)
+        # flash('确认信息已经发邮件给你了')
+        return redirect(url_for('main.login'))
+    return render_template('register.html', form=form)
 
-            print(username, password, password2, tel, sex, birthday, email)
-            if password != password2:
-                flash("两次密码输入不一致")
-            return "验证通过"
-        else:
-            # 消息闪现，渲染模板
-            flash('参数错误')
-    else:
-        pass
-        #return redirect(url_for('register_wtf'))
-    return render_template('register.html')
 
 #登录
 @blue.route('/login/', methods=['GET', 'POST'])
 def login():
-    return render_template('login.html')
+    form = LoginForm()
+    if form.validate_on_submit():
+        user = models.User.query.filter_by(email=form.email.data).first()
+        if user is not None and user.verify_password(form.password.data):
+            login_user(user, form.remember_me.data)
+            next = request.args.get('next')
+            if next is None or not next.startswith('/'):
+                next = url_for('mian.index')
+                return redirect(next)
+        flash('Invalid username or password.')
+    return render_template('login.html', form=form)
 
+
+@blue.route('/logout')
+@login_required
+def logout():
+    logout_user()
+    flash('你已经注销')
+    return redirect(url_for('index'))
 
 #   {{ url_for('static',filename='') }}
