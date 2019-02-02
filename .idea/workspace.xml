@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0426a8b-a3f4-4b56-9e75-1e7251990a4b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/xiago/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/xiago/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/main/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/xiago/app/main/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/main/errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/xiago/app/main/errors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/xiago/app/main/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/xiago/app/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/xiago/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/xiago/app/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/assets/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/assets/newsletter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/assets/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/color-aqua.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/color-beige.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/color-blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/color-gray.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/color-green-2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/color-green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/color-navy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/color-orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/color-peach.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/color-purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/color-red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/color-violet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/daterangepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/flexslider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/fonts/flexslider-icon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/fonts/flexslider-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/fonts/flexslider-icon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/fonts/flexslider-icon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/Italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/agenda.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/alarm-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/alert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/align-center.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/align-justify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/align-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/align-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/anchor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/android.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/angle-double-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/angle-double-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/angle-double-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/angle-double-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/angle-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/angle-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/angle-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/angle-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/announcement.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/apple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/archive.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/arrow-circle-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/arrow-circle-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/arrow-circle-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/arrow-circle-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/arrow-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/arrow-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/arrow-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/arrow-top-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/arrow-top-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/arrow-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/arrows-corner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/arrows-horizontal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/arrows-vertical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/back-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/back-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/bag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/bar-chart-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/bar-chart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/basketball.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/bell.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/blackboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/bolt-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/bolt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/book.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/bookmark-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/bookmark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/briefcase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/brush-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/brush.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/camera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/car.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/check-box.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/clip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/clipboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/cloud-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/cloud-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/cloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/comment-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/comment.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/comments-smiley.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/comments.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/control-backward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/control-eject.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/control-forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/control-pause.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/control-play.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/control-record.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/control-shuffle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/control-skip-backward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/control-skip-forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/control-stop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/credit-card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/crown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/css3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/cup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/cut.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/dashboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/desktop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/direction-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/direction.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/dribbble.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/dropbox-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/dropbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/drupal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/email.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/envelope.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/eraser.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/exchange-vertical.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/export.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/eye.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/face-sad.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/face-smile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/files.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/filter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/flag-alt-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/flag-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/flag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/flickr-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/flickr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/folder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/fullscreen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/gallery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/game.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/gift.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/google.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/hand-drag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/hand-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/hand-point-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/hand-point-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/hand-point-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/hand-point-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/hand-stop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/harddrive.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/harddrives.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/headphone-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/headphone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/heart-broken.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/heart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/help-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/help.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/html5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/hummer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/id-badge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/image.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/import.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/infinite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/info-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/info.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/ink-pen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/joomla.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/jsfiddle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/key.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layers-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-accordion-list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-accordion-merged.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-accordion-separated.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-column2-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-column2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-column3-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-column3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-column4-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-column4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-cta-btn-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-cta-btn-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-cta-center.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-cta-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-cta-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-grid2-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-grid2-thumb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-grid2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-grid3-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-grid3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-grid4-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-grid4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-line-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-list-large-image.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-list-post.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-list-thumb-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-list-thumb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-media-center-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-media-center.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-media-left-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-media-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-media-overlay-alt-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-media-overlay-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-media-overlay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-media-right-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-media-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-menu-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-menu-separated.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-menu-v.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-placeholder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-sidebar-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-sidebar-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-sidebar-none.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-sidebar-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-slider-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-slider.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-tab-min.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-tab-v.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-tab-window.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-width-default-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-width-default.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout-width-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/layout.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/light-bulb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/line-dashed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/line-dotted.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/line-double.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/linkedin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/linux.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/list-ol.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/location-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/location-pin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/lock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/loop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/magnet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/map-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/map.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/marker-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/marker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/medall-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/medall.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/menu-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/microphone-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/microphone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/microsoft-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/microsoft.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/minus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/mobile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/money.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/more-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/more.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/mouse-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/mouse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/music-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/music.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/na.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/new-window.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/notepad.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/package.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/paint-bucket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/paint-roller.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/palette.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/panel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/paragraph.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/pencil-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/pencil-alt2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/pencil.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/pie-chart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/pin-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/pin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/pin2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/pinterest-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/pinterest.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/plug.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/power-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/printer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/pulse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/quote-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/quote-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/receipt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/reddit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/reload.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/rocket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/rss-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/rss.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/ruler-alt-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/ruler-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/ruler-pencil.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/ruler.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/save-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/save.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/server.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/settings.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/share-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/share.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/sharethis-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/sharethis.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/shield.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/shift-left-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/shift-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/shift-right-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/shift-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/shine.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/shopping-cart-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/shopping-cart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/shortcode.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/signal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/skype.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/slice.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/smallcap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/soundcloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/split-h.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/split-v-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/split-v.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/spray.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/stack-overflow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/stamp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/stats-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/stats-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/support.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/tablet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/tag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/target.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/text.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/themify-favicon-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/themify-favicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/themify-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/thought.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/thumb-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/thumb-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/ticket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/time.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/timer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/trash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/trello.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/truck.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/tumblr-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/tumblr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/twitter-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/underline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/unlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/unlock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/upload.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/uppercase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/user.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/vector.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/video-camera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/video-clapper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/view-grid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/view-list-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/view-list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/vimeo-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/vimeo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/volume.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/wallet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/wand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/wheelchair.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/widget-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/widget.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/widgetized.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/window.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/wordpress.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/world.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/write.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/yahoo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/zip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/zoom-in.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/SVG_icon_set_4/zoom-out.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/css/all_icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/css/all_icons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/css/fontello-codes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/css/icon_set_1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/css/icon_set_2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/css/icon_set_3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/css/icon_set_4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/demo_icon_set_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/demo_icon_set_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/demo_icon_set_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/demo_icon_set_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/ElegantIcons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/ElegantIcons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/ElegantIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/ElegantIcons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/Glyphter.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/Glyphter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/Glyphter.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/Glyphter.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/Pe-icon-7-stroke.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/Pe-icon-7-stroke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/Pe-icon-7-stroke.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/Pe-icon-7-stroke.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/fontello.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/fontello.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/fontello.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/fontello.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/icon_set_1.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/icon_set_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/icon_set_1.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/icon_set_1.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/themify.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/themify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/themify.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/icon_fonts/font/themify.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/jquery.mmenu.all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/flat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/flat@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/flat/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/futurico/futurico.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/futurico/futurico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/futurico/futurico@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/line/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/line/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/line/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/line/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/line/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/line/line.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/line/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/line/line@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/line/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/line/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/line/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/line/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/line/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/minimal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/minimal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/minimal@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/minimal/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/polaris/polaris.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/polaris/polaris.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/polaris/polaris@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/square.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/square@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/yellow.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/skins/square/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/tables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/vendors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/css/vendors.unminified.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/images/main-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/1_carousel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/2_carousel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/3_carousel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/4_carousel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/5_carousel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/about_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/apple-touch-icon-114x114-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/apple-touch-icon-144x144-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/apple-touch-icon-57x57-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/apple-touch-icon-72x72-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/arrow_down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/avatar1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/avatar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/avatar3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/bg_call_section.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/blog-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/blog-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/blog-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/blog-single.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/cards_all.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/close_infobox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/credit-cards_amazon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/credit-cards_amex.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/credit-cards_apple-pay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/credit-cards_bitcoin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/credit-cards_diners-club.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/credit-cards_discover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/credit-cards_maestro.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/credit-cards_mastercard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/credit-cards_paypal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/credit-cards_visa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/drag_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/flex_slides/slide_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/flex_slides/slide_1_thumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/flex_slides/slide_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/flex_slides/slide_2_thumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/flex_slides/slide_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/flex_slides/slide_3_thumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/flex_slides/slide_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/flex_slides/slide_4_thumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/flex_slides/slide_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/flex_slides/slide_5_thumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/gallery/hotel_list_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/gallery/hotel_list_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/gallery/hotel_list_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/gallery/large/pic_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/gallery/large/pic_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/gallery/large/pic_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/gallery/large/pic_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/gallery/large/pic_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/gallery/large/pic_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/gallery/large/pic_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/gallery/large/pic_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/gallery/restaurant_list_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/gallery/restaurant_list_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/gallery/restaurant_list_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/gallery/tour_list_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/gallery/tour_list_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/gallery/tour_list_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hero_in_bg_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hero_in_bg_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hero_in_bg_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hero_in_bg_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hero_in_bg_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hero_in_hotels_detail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hero_in_restaurants_detail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hero_in_tours_detail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/home_section_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/home_slider/slide_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/home_slider/slide_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/home_slider/slide_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hotel_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hotel_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hotel_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hotel_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hotel_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hotel_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hotel_facilites_icon_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hotel_facilites_icon_2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hotel_facilites_icon_3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hotel_facilites_icon_4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hotel_facilites_icon_5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hotel_facilites_icon_6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hotel_facilites_icon_7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hotel_facilites_icon_8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/hotel_facilites_icon_9.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/icon_cart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/icon_ccv.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/icon_heart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/icon_login.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/logo_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/logo_sticky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/logo_sticky_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/main-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/map-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/n1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/n2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/n3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/n4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/n5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/news_home_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/news_home_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/news_home_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/news_home_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/pattern_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/paypal_bt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/pins/Marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/restaurant_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/restaurant_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/restaurant_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/restaurant_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/restaurant_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/restaurant_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/small-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/sprite-skin-flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/thumb_blog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/thumb_map_single_hotel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/thumb_map_single_restaurant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/thumb_map_single_tour.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/tour_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/tour_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/tour_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/tour_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/tour_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/tour_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/tour_plan_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/tour_plan_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/tour_plan_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/tour_plan_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/img/video_fix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/ResizeSensor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/ResizeSensor.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/common_scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/countUp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/daterangepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/hideShowPassword.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/hideShowPassword.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/icheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/icheck.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/infobox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/input_qty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/ion.rangeSlider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/ion.rangeSlider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/isotope.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/jquery-1.10.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/jquery-2.2.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/jquery.cookiebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/jquery.easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/jquery.flexisel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/jquery.flexslider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/jquery.flexslider.uncompressed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/jquery.instagramFeed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/jquery.instagramFeed.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/jquery.magnific-popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/jquery.mmenu.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/jquery.mmenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/jquery.mousewheel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/jquery.nice-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/jquery.nice-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/jquery.simpleWeather.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/jquery.simpleWeather.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/map_hotels.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/map_restaurants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/map_single_hotel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/map_single_restaurant.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/map_single_tour.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/map_tours.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/mapmarker.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/mapmarker_func.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/markerclusterer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/modernizr_slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/modernizr_tables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/pw_strenght.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/retina-replace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/retina-replace.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/sticky-kit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/sticky-kit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/switcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/switchery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/switchery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/tables_func.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/theia-sticky-sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/video_header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/weather_home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/js/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/css/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/css/layerslider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/js/greensock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/js/layerslider.kreaturamedia.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/js/layerslider.transitions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlessdark/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlessdark/nothumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlessdark/shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlessdark/skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlessdark/skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlessdark3d/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlessdark3d/nothumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlessdark3d/shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlessdark3d/skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlessdark3d/skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlesslight/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlesslight/nothumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlesslight/shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlesslight/skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlesslight/skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlesslight3d/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlesslight3d/nothumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlesslight3d/shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlesslight3d/skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/borderlesslight3d/skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/carousel/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/carousel/nothumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/carousel/skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/carousel/skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/darkskin/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/darkskin/nothumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/darkskin/skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/darkskin/skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/defaultskin/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/defaultskin/nothumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/defaultskin/skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/defaultskin/skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/fullwidth/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/fullwidth/nothumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/fullwidth/skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/fullwidth/skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/fullwidthdark/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/fullwidthdark/nothumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/fullwidthdark/skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/fullwidthdark/skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/glass/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/glass/nothumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/glass/shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/glass/skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/glass/skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/lightskin/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/lightskin/nothumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/lightskin/skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/lightskin/skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/minimal/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/minimal/nothumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/minimal/skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/minimal/skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/noskin/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/noskin/nothumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/noskin/skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/noskin/skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/v5/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/v5/nothumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/v5/skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/layerslider/skins/v5/skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/xiago/app/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/logo/Avenir Next.ttc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/logo/Avenir.ttc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/logo/logo.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/logo/logo.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/logo/logo_2x.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/xiago/app/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/0d4d03800111853e838892459e23b4411ca6daca/_layout.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/0d4d03800111853e838892459e23b4411ca6daca/_mixin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/0d4d03800111853e838892459e23b4411ca6daca/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/0d4d03800111853e838892459e23b4411ca6daca/blog.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/0d4d03800111853e838892459e23b4411ca6daca/menu_2.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/0d4d03800111853e838892459e23b4411ca6daca/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/0d4d03800111853e838892459e23b4411ca6daca/tables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/0d4d03800111853e838892459e23b4411ca6daca/wizard.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/158c82a8501d3ef3464858753612c5be1c372584/_mixin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/158c82a8501d3ef3464858753612c5be1c372584/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/158c82a8501d3ef3464858753612c5be1c372584/menu_2.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/158c82a8501d3ef3464858753612c5be1c372584/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/27bbc8e5bf9aef665c9ead790337d9dfc53db5bf/_layout.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/27bbc8e5bf9aef665c9ead790337d9dfc53db5bf/_mixin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/27bbc8e5bf9aef665c9ead790337d9dfc53db5bf/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/27bbc8e5bf9aef665c9ead790337d9dfc53db5bf/blog.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/27bbc8e5bf9aef665c9ead790337d9dfc53db5bf/menu_2.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/27bbc8e5bf9aef665c9ead790337d9dfc53db5bf/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/27bbc8e5bf9aef665c9ead790337d9dfc53db5bf/tables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/27bbc8e5bf9aef665c9ead790337d9dfc53db5bf/wizard.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/2d2f4d366ee9bf87ea6ded7d0b5acf10d8c4bca6/_layout.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/2d2f4d366ee9bf87ea6ded7d0b5acf10d8c4bca6/_mixin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/2d2f4d366ee9bf87ea6ded7d0b5acf10d8c4bca6/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/2d2f4d366ee9bf87ea6ded7d0b5acf10d8c4bca6/blog copia.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/2d2f4d366ee9bf87ea6ded7d0b5acf10d8c4bca6/blog.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/2d2f4d366ee9bf87ea6ded7d0b5acf10d8c4bca6/menu.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/2d2f4d366ee9bf87ea6ded7d0b5acf10d8c4bca6/menu_2.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/2d2f4d366ee9bf87ea6ded7d0b5acf10d8c4bca6/style copia.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/2d2f4d366ee9bf87ea6ded7d0b5acf10d8c4bca6/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/2d2f4d366ee9bf87ea6ded7d0b5acf10d8c4bca6/tables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/2d2f4d366ee9bf87ea6ded7d0b5acf10d8c4bca6/wizard.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/62836d9f5a3acd8b5b5ee997a78ee9dea07a5f7f/_layout.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/62836d9f5a3acd8b5b5ee997a78ee9dea07a5f7f/_mixin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/62836d9f5a3acd8b5b5ee997a78ee9dea07a5f7f/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/62836d9f5a3acd8b5b5ee997a78ee9dea07a5f7f/blog.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/62836d9f5a3acd8b5b5ee997a78ee9dea07a5f7f/menu.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/62836d9f5a3acd8b5b5ee997a78ee9dea07a5f7f/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/62836d9f5a3acd8b5b5ee997a78ee9dea07a5f7f/tables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/76a88fb832c56d468bb2dd09ce2eb6298459052a/_layout.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/76a88fb832c56d468bb2dd09ce2eb6298459052a/_mixin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/76a88fb832c56d468bb2dd09ce2eb6298459052a/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/76a88fb832c56d468bb2dd09ce2eb6298459052a/blog.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/76a88fb832c56d468bb2dd09ce2eb6298459052a/menu.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/76a88fb832c56d468bb2dd09ce2eb6298459052a/menu_2.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/76a88fb832c56d468bb2dd09ce2eb6298459052a/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/76a88fb832c56d468bb2dd09ce2eb6298459052a/tables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/76a88fb832c56d468bb2dd09ce2eb6298459052a/wizard.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/7f2e08b28b8347b37921a1b04e10680e71fe94af/_mixin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/7f2e08b28b8347b37921a1b04e10680e71fe94af/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/7f2e08b28b8347b37921a1b04e10680e71fe94af/blog.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/7f2e08b28b8347b37921a1b04e10680e71fe94af/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/7f2e08b28b8347b37921a1b04e10680e71fe94af/wizard.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8af055c9b3449048f4ea35c0b3fe8e8740042dfc/_layout.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8af055c9b3449048f4ea35c0b3fe8e8740042dfc/_mixin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8af055c9b3449048f4ea35c0b3fe8e8740042dfc/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8af055c9b3449048f4ea35c0b3fe8e8740042dfc/blog.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8af055c9b3449048f4ea35c0b3fe8e8740042dfc/menu_2.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8af055c9b3449048f4ea35c0b3fe8e8740042dfc/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8af055c9b3449048f4ea35c0b3fe8e8740042dfc/tables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8af055c9b3449048f4ea35c0b3fe8e8740042dfc/wizard.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8fdc1d19c6d4303cb3591b4e35a49c3397e5580f/_layout.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8fdc1d19c6d4303cb3591b4e35a49c3397e5580f/_mixin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8fdc1d19c6d4303cb3591b4e35a49c3397e5580f/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8fdc1d19c6d4303cb3591b4e35a49c3397e5580f/blog.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8fdc1d19c6d4303cb3591b4e35a49c3397e5580f/color-aqua.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8fdc1d19c6d4303cb3591b4e35a49c3397e5580f/color-blue.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8fdc1d19c6d4303cb3591b4e35a49c3397e5580f/color-green.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8fdc1d19c6d4303cb3591b4e35a49c3397e5580f/color-orange.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8fdc1d19c6d4303cb3591b4e35a49c3397e5580f/menu.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8fdc1d19c6d4303cb3591b4e35a49c3397e5580f/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/8fdc1d19c6d4303cb3591b4e35a49c3397e5580f/tables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/9f44d4451b26c452465f77144685588de429e555/_mixin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/9f44d4451b26c452465f77144685588de429e555/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/9f44d4451b26c452465f77144685588de429e555/blog.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/9f44d4451b26c452465f77144685588de429e555/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/9f44d4451b26c452465f77144685588de429e555/wizard.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/a87bdb3e26b1330c7951e8ed2bd9061caa907180/_layout.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/a87bdb3e26b1330c7951e8ed2bd9061caa907180/_mixin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/a87bdb3e26b1330c7951e8ed2bd9061caa907180/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/a87bdb3e26b1330c7951e8ed2bd9061caa907180/blog.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/a87bdb3e26b1330c7951e8ed2bd9061caa907180/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/a87bdb3e26b1330c7951e8ed2bd9061caa907180/tables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/a87bdb3e26b1330c7951e8ed2bd9061caa907180/wizard.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/aef66e8477330fc681512a912f9bff4eb2ec5495/_layout.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/aef66e8477330fc681512a912f9bff4eb2ec5495/_mixin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/aef66e8477330fc681512a912f9bff4eb2ec5495/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/aef66e8477330fc681512a912f9bff4eb2ec5495/blog.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/aef66e8477330fc681512a912f9bff4eb2ec5495/menu_2.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/aef66e8477330fc681512a912f9bff4eb2ec5495/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/aef66e8477330fc681512a912f9bff4eb2ec5495/tables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/aef66e8477330fc681512a912f9bff4eb2ec5495/wizard.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/af7f356e3b8da8d251ee0e4c06bc5e39bd594875/_layout.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/af7f356e3b8da8d251ee0e4c06bc5e39bd594875/_mixin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/af7f356e3b8da8d251ee0e4c06bc5e39bd594875/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/af7f356e3b8da8d251ee0e4c06bc5e39bd594875/blog.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/af7f356e3b8da8d251ee0e4c06bc5e39bd594875/color-aqua.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/af7f356e3b8da8d251ee0e4c06bc5e39bd594875/color-blue.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/af7f356e3b8da8d251ee0e4c06bc5e39bd594875/color-green.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/af7f356e3b8da8d251ee0e4c06bc5e39bd594875/color-orange.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/af7f356e3b8da8d251ee0e4c06bc5e39bd594875/menu.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/af7f356e3b8da8d251ee0e4c06bc5e39bd594875/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/af7f356e3b8da8d251ee0e4c06bc5e39bd594875/tables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/_layout.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/_mixin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/blog.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/color-aqua.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/color-beige.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/color-blue.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/color-gray.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/color-green copia.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/color-green-2.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/color-green.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/color-navy.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/color-orange.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/color-peach.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/color-purple.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/color-red.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/color-violet.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/menu.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/rtl.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/c1084e7f5f54a9310d23174406a7f990475655ba/tables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/d5266fe4499df3b3e4c792d291df2d315af089e6/_layout.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/d5266fe4499df3b3e4c792d291df2d315af089e6/_mixin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/d5266fe4499df3b3e4c792d291df2d315af089e6/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/d5266fe4499df3b3e4c792d291df2d315af089e6/blog.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/d5266fe4499df3b3e4c792d291df2d315af089e6/color-aqua.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/d5266fe4499df3b3e4c792d291df2d315af089e6/color-blue.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/d5266fe4499df3b3e4c792d291df2d315af089e6/color-green.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/d5266fe4499df3b3e4c792d291df2d315af089e6/color-orange.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/d5266fe4499df3b3e4c792d291df2d315af089e6/menu.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/d5266fe4499df3b3e4c792d291df2d315af089e6/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/d5266fe4499df3b3e4c792d291df2d315af089e6/tables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/da59190ba325589c70ad787f1d06c3a583746b68/_layout.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/da59190ba325589c70ad787f1d06c3a583746b68/_mixin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/da59190ba325589c70ad787f1d06c3a583746b68/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/da59190ba325589c70ad787f1d06c3a583746b68/blog.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/da59190ba325589c70ad787f1d06c3a583746b68/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/da59190ba325589c70ad787f1d06c3a583746b68/tables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/da59190ba325589c70ad787f1d06c3a583746b68/wizard.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/e94b0aab47ae9591ff08e0c756047675b2fbb451/_layout.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/e94b0aab47ae9591ff08e0c756047675b2fbb451/_mixin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/e94b0aab47ae9591ff08e0c756047675b2fbb451/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/e94b0aab47ae9591ff08e0c756047675b2fbb451/blog.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/e94b0aab47ae9591ff08e0c756047675b2fbb451/color-aqua.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/e94b0aab47ae9591ff08e0c756047675b2fbb451/color-blue.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/e94b0aab47ae9591ff08e0c756047675b2fbb451/color-green.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/e94b0aab47ae9591ff08e0c756047675b2fbb451/color-orange.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/e94b0aab47ae9591ff08e0c756047675b2fbb451/menu.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/e94b0aab47ae9591ff08e0c756047675b2fbb451/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/e94b0aab47ae9591ff08e0c756047675b2fbb451/tables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/faccf60d7720ec722afad2d83d2d4cc92aa55306/_layout.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/faccf60d7720ec722afad2d83d2d4cc92aa55306/_mixin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/faccf60d7720ec722afad2d83d2d4cc92aa55306/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/faccf60d7720ec722afad2d83d2d4cc92aa55306/blog copia.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/faccf60d7720ec722afad2d83d2d4cc92aa55306/blog.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/faccf60d7720ec722afad2d83d2d4cc92aa55306/color-aqua.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/faccf60d7720ec722afad2d83d2d4cc92aa55306/color-blue.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/faccf60d7720ec722afad2d83d2d4cc92aa55306/color-green.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/faccf60d7720ec722afad2d83d2d4cc92aa55306/color-orange.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/faccf60d7720ec722afad2d83d2d4cc92aa55306/menu.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/faccf60d7720ec722afad2d83d2d4cc92aa55306/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/.sass-cache/faccf60d7720ec722afad2d83d2d4cc92aa55306/tables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/_layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/_mixin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/blog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/color-aqua.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/color-beige.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/color-blue.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/color-gray.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/color-green-2.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/color-green.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/color-navy.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/color-orange.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/color-peach.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/color-purple.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/color-red.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/color-violet.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/compass_app_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/config.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/sass/tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/xiago/app/templates/style.css" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Project/xiago/app/main/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="6" selection-end-line="45" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errors.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Project/xiago/app/main/errors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Project/xiago/app/templates/404.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Project/xiago/app/main/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Project/xiago/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Project/xiago/app/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Project/xiago/app/main/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Project/xiago/app/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="48" lean-forward="true" selection-start-column="48" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Project/xiago/app/models.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Project/xiago/app/__init__.py" />
+        <option value="$PROJECT_DIR$/Project/xiago/app/main/forms.py" />
+        <option value="$PROJECT_DIR$/Project/xiago/app/main/views.py" />
+        <option value="$PROJECT_DIR$/Project/xiago/app.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1055" />
+    <option name="height" value="1020" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="xiago" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiago" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiago" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiago" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiago" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiago" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="xiago" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiago" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiago" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="xiago" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiago" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiago" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="xiago" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0426a8b-a3f4-4b56-9e75-1e7251990a4b" name="Default" comment="" />
+      <created>1548330290867</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548330290867</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19812584" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16554959" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Project/xiago/app/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="6" lean-forward="true" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/xiago/app/main/errors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/xiago/app/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/xiago/app/main/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/xiago/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/xiago/app/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/xiago/app/main/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/xiago/app/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/xiago/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="48" lean-forward="true" selection-start-column="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/xiago/app/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/xiago/app/main/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/xiago/app/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="6" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/xiago/app/main/errors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/xiago/app/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/xiago/app/main/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/xiago/app/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/xiago/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/xiago/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="48" lean-forward="true" selection-start-column="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

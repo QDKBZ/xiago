@@ -1482,7 +1482,7 @@
 
 	/**
 	 * Triggers a public event.
-	 * @todo Remove `status`, `relatedTarget` should be used instead.
+	 * @todo Remove `static`, `relatedTarget` should be used instead.
 	 * @protected
 	 * @param {String} name - The event name.
 	 * @param {*} [data=null] - The event data.
